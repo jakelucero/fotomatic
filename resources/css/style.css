@@ -240,7 +240,8 @@ header .mobile {
 .image-container{
   overflow: hidden;
 }
-.image-container .img{
+
+.image-container img{
   display: block;
   max-width: 100%;
 }
@@ -270,12 +271,14 @@ header .mobile {
     font-size: .875rem;
     line-height: 1.4;
   }
+
 }
 
 @media only screen and (max-width: 760px) {
   #features-section {
     flex-flow: column;
     padding: 0;
+    display: flex;
   }
 
   .feature {
@@ -312,6 +315,7 @@ header .mobile {
 #filters-section .images-container {
   max-width: 100%;
   padding: 0 1%;
+  display: flex;
 }
 
 @media only screen and (max-width: 760px) {
